@@ -77,6 +77,8 @@ To provide a clean, professional, and informative presentation of the training e
 
 > *You may open the `index.html` in any browser to preview the full experience with animations and responsiveness.*
 
+> or click here https://hneenalshelaly.github.io/Training_Journey/
+
 ---
 
 ## ✅ Status
@@ -92,4 +94,3 @@ To provide a clean, professional, and informative presentation of the training e
 
 For any questions or feedback:
 - **Developer:** Hneen Alshelaly  
-- **Email:** [Your Email Here]
