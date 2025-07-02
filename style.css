@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+     /* background-color: hsl(218, 28%, 13%); */
+     background-color: hsl(219, 30%, 18%);
+     margin: 0;
+     font-family: 'Raleway';
+     /* remove the scroll in X axis */
+     overflow-x: hidden;
+
+}
+
+.mine {
+     background-image: url('./images/bg-curvy-desktop.svg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     /* height: 100vh; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     margin-top: 100px;
+}
+
+.intro.card {
+     color: #fff;
+     background-color: transparent;
+     max-width: 940px;
+     border: none;
+}
+
+.intro.card .card-title {
+     font-size: 3.5em;
+}
+
+.intro.card .card-title small {
+     font-size: .5em;
+     font-style: italic;
+}
+
+.learning h1 {
+     color: #fff;
+     font-size: 2.5em;
+     margin-top: 20px;
+}
+
+.mycards .card {
+     background-color: transparent;
+     color: #fff;
+     border: none;
+     border-radius: 10px;
+}
+
+.mycards .card .card-title {
+     font-size: 1.5em;
+     color: #FFB6C1;
+     font-weight: 800;
+}
+
+.learning h1 {
+     color: hsl(198, 60%, 50%);
+     font-size: 3.5em;
+     margin-left: 40px;
+}
+
+.info .card {
+     background-color: transparent;
+     color: #fff;
+     border: none;
+     border-radius: 10px;
+     max-width: 940px;
+
+}
+
+.info .card .card-title {
+     font-size: 1.5em;
+     color: hsl(176, 68%, 64%);
+     font-weight: 800;
+
+}
+
+footer {
+     background-color: hsl(216, 53%, 9%);
+     padding: 60px;
+     bottom: 0;
+     width: 100%;
+}
+
+footer .card {
+     background-color: transparent;
+     color: #fff;
+     border: none;
+     max-width: 940px;
+     margin: 0 auto;
+}
+
+footer .card .card-title {
+     font-size: 1.٥em;
+     color: hsl(228, 45%, 44%);
+     font-weight: 800;
+}
+
+footer .card .card-text {
+     font-size: 1.2em;
+}
+
+footer .card ul {
+     font-size: 1.2em;
+
+     list-style: none;
+     padding: 0;
+}
+
+.attribution {
+     font-size: 11px;
+     text-align: center;
+     color: #fff;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
+
+
+@media (max-width: 575px) {
+     .intro.card .card-title {
+          font-size: 2.5em;
+     }
+
+     .learning h1 {
+          font-size: 2em;
+          margin-left: 20px;
+     }
+
+     .mycards .card .card-title {
+          font-size: 1.2em;
+     }
+
+     .info .card .card-title {
+          font-size: 1.2em;
+     }
+
+     .mycards .card img {
+          width: 35%;
+          height: auto;
+     }
+}
